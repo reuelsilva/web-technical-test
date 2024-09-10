@@ -10,13 +10,30 @@ Quando a pagina é carregada deve buscar os dados para exibir as promotions. O o
 
 As promotions devem ser ordenadas pela propriedade `sequence`.
 
-<h2>🎨 Tecnologias</h2>
-<ul>
-    <li>HTML 🟠</li>
-    <li>CSS 🔵</li>
-    <li>JavaScript 🟡</li>
-</ul>
-<h2>🗃️ Bibliotecas</h2>
-<ul>
-  <li>JSON Server</li>
-</ul>
+### Instalação e Execução
+
+Para executar este projeto localmente, siga estes passos:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/reuelsilva/web-technical-test.git
+   cd web-technical-test
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+   
+3. **Execute o servidor JSON-Server:**
+   ```bash
+   npx json-server --watch "data.json" -p 3000
+    ```
+4. **Abra com o Live Server**
+
+### 🎨 Tecnologias
+
+- **HTML 🟠**
+- **CSS 🔵**
+- **JavaScript 🟡**
+- **JSON-Server**
